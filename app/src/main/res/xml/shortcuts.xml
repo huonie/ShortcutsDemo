@@ -1,0 +1,58 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon001"
+        android:shortcutId="first"
+        android:shortcutLongLabel="@string/first_long"
+        android:shortcutShortLabel="@string/first_short">
+        <!-- targetClass 指定了点击该项菜单后要打开那个活动页面-->
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shortcutstest"
+            android:targetClass="com.example.shortcutstest.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon001"
+        android:shortcutId="second"
+        android:shortcutLongLabel="@string/second_long"
+        android:shortcutShortLabel="@string/second_short">
+        <!-- targetclass指定了点击该项菜单后要打开哪个活动页面-->
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.test.Login"
+            android:targetPackage="com.example.test" />
+        <categories android:name="android.shortcut. conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon001"
+        android:shortcutId="third"
+        android:shortcutLongLabel="@string/third_long"
+        android:shortcutShortLabel="@string/third_short">
+        <!-- targetclass指定了点击该项菜单后要打开哪个活动页面-->
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.test"
+            android:targetClass="com.example.test.Login" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon001"
+        android:shortcutId="four"
+        android:shortcutLongLabel="@string/four_long"
+        android:shortcutShortLabel="@string/four_short">
+        <!-- targetclass指定了点击该项菜单后要打开哪个活动页面-->
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.test"
+            android:targetClass="com.example.test.Login" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

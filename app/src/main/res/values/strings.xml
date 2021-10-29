@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShortcutsTest</string>
+    <string name="first_short">first</string>
+    <string name="first_long">扫一扫</string>
+    <string name="second_short">second</string>
+    <string name="second_long">付钱</string>
+    <string name="third_short">third</string>
+    <string name="third_long">收钱</string>
+    <string name="four_short">four</string>
+    <string name="four_long">更多设置</string>
+</resources>
